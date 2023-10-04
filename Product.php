@@ -7,7 +7,7 @@ class Product
     private float $price;
 
 
-    public function __construct(int $id, string $name, float $price)
+    public function __construct($id, $name, $price)
     {
         // TODO: Initialize properties
         $this->id = $id;
